@@ -1,0 +1,19 @@
+body {
+  background-color: NavajoWhite;
+  margin: 50px;
+  padding: 30px;
+  text-align: center;
+  }
+
+a {
+  color: GoldenRod;
+  align-self: center;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  background-color: purple;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+}
