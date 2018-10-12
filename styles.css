@@ -3,7 +3,7 @@ body {
   margin: 50px;
   padding: 30px;
   text-align: center;
-  }
+}
 
 a {
   color: GoldenRod;
@@ -16,4 +16,16 @@ a {
   background-color: purple;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50px;
+}
+
+#Cruise2017 {
+  font-family: cursive;
+}
+
+#London {
+  font-family: cursive;
+}
+
+#Cruise2018 {
+  font-family: cursive;
 }
