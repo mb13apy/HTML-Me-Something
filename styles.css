@@ -7,15 +7,22 @@ body {
 
 a {
   color: GoldenRod;
-  align-self: center;
   font-weight: bold;
 }
 
-.grid {
-  display: grid;
+nav {
   background-color: purple;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px;
+}
+
+nav li {
+  display: inline
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
 }
 
 #Cruise2017 {
